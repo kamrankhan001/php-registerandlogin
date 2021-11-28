@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group col-12 my-2">
                     <input type="submit" value="Login" class="btn btn-outline-primary">
-                    <a href="index.php" class="btn btn-outline-info">Register</a>
+                    <a href="register.php" class="btn btn-outline-info">Register</a>
                 </div>
             </div>
         </form>

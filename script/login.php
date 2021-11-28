@@ -12,8 +12,10 @@
                 while($row = $result->fetch_assoc()) {
                     if ($email == $row['email'] and password_verify($password, $row['password'])){
                         header("Location: ../templates/profile.php");
-                    }
+                        die();
+                    } 
                 }
+                echo "Register yourself first or give correct email and password";
             }
             $conn->close();
         } else {
